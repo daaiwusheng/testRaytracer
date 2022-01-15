@@ -11,7 +11,7 @@ find_package(Qt5 COMPONENTS
         Core
         REQUIRED)
 
-add_executable(testRaytracer main.cpp vec3.h color.h ray.h hittable.h sphere.h hittable_list.h rtweekend.h camera.h)
+add_executable(testRaytracer main.cpp vec3.h color.h ray.h hittable.h sphere.h hittable_list.h rtweekend.h camera.h material.h)
 target_link_libraries(testRaytracer
         Qt5::Core
         )

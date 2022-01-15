@@ -7,6 +7,7 @@ CMakeFiles/testRaytracer.dir/main.cpp.o: \
  ../hittable.h \
  ../hittable_list.h \
  ../main.cpp \
+ ../material.h \
  ../ray.h \
  ../rtweekend.h \
  ../sphere.h \
