@@ -142,6 +142,54 @@ testRaytracer_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer_autogen.dir/build.make CMakeFiles/testRaytracer_autogen.dir/build
 .PHONY : testRaytracer_autogen/fast
 
+RGBAImage.o: RGBAImage.cpp.o
+.PHONY : RGBAImage.o
+
+# target to build an object file
+RGBAImage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/RGBAImage.cpp.o
+.PHONY : RGBAImage.cpp.o
+
+RGBAImage.i: RGBAImage.cpp.i
+.PHONY : RGBAImage.i
+
+# target to preprocess a source file
+RGBAImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/RGBAImage.cpp.i
+.PHONY : RGBAImage.cpp.i
+
+RGBAImage.s: RGBAImage.cpp.s
+.PHONY : RGBAImage.s
+
+# target to generate assembly for a file
+RGBAImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/RGBAImage.cpp.s
+.PHONY : RGBAImage.cpp.s
+
+RGBAValue.o: RGBAValue.cpp.o
+.PHONY : RGBAValue.o
+
+# target to build an object file
+RGBAValue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/RGBAValue.cpp.o
+.PHONY : RGBAValue.cpp.o
+
+RGBAValue.i: RGBAValue.cpp.i
+.PHONY : RGBAValue.i
+
+# target to preprocess a source file
+RGBAValue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/RGBAValue.cpp.i
+.PHONY : RGBAValue.cpp.i
+
+RGBAValue.s: RGBAValue.cpp.s
+.PHONY : RGBAValue.s
+
+# target to generate assembly for a file
+RGBAValue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/RGBAValue.cpp.s
+.PHONY : RGBAValue.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -200,6 +248,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... testRaytracer_autogen"
 	@echo "... testRaytracer"
+	@echo "... RGBAImage.o"
+	@echo "... RGBAImage.i"
+	@echo "... RGBAImage.s"
+	@echo "... RGBAValue.o"
+	@echo "... RGBAValue.i"
+	@echo "... RGBAValue.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

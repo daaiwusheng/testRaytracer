@@ -39,6 +39,12 @@
 		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Platform/Apple-Clang-CXX.cmake",
 		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/Platform/Apple-Clang.cmake",
 		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCommonLanguageInclude.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FindOpenMP.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeParseImplicitLinkInfo.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/FindPackageMessage.cmake",
+		"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c",
+		"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp",
 		"/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
 		"/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5Config.cmake",
 		"/usr/local/opt/qt@5/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
@@ -54,6 +60,18 @@
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
+		[
+			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAImage.h",
+			"MU",
+			"EWIEGA46WW/moc_RGBAImage.cpp",
+			null
+		],
+		[
+			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAValue.h",
+			"MU",
+			"EWIEGA46WW/moc_RGBAValue.cpp",
+			null
+		],
 		[
 			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/camera.h",
 			"MU",
@@ -122,6 +140,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/usr/local/include",
 		"/usr/local/opt/qt@5/lib/QtCore.framework",
 		"/usr/local/opt/qt@5/lib/QtCore.framework/Headers",
 		"/usr/local/opt/qt@5/mkspecs/macx-clang",
@@ -154,6 +173,16 @@
 	"SETTINGS_FILE" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/testRaytracer_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAImage.cpp",
+			"MU",
+			null
+		],
+		[
+			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAValue.cpp",
+			"MU",
+			null
+		],
 		[
 			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/main.cpp",
 			"MU",

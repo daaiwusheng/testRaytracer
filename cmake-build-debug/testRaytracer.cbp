@@ -46,11 +46,11 @@
 				<Compiler>
 					<Add option="-DQT_CORE_LIB"/>
 					<Add directory="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/testRaytracer_autogen/include"/>
+					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/opt/qt@5/lib/QtCore.framework"/>
 					<Add directory="/usr/local/opt/qt@5/lib/QtCore.framework/Headers"/>
 					<Add directory="/usr/local/opt/qt@5/./mkspecs/macx-clang"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
@@ -72,11 +72,11 @@
 				<Compiler>
 					<Add option="-DQT_CORE_LIB"/>
 					<Add directory="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/testRaytracer_autogen/include"/>
+					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/opt/qt@5/lib/QtCore.framework"/>
 					<Add directory="/usr/local/opt/qt@5/lib/QtCore.framework/Headers"/>
 					<Add directory="/usr/local/opt/qt@5/./mkspecs/macx-clang"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
@@ -100,6 +100,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAImage.cpp">
+			<Option target="testRaytracer"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAImage.h">
+			<Option target="testRaytracer"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAValue.cpp">
+			<Option target="testRaytracer"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAValue.h">
+			<Option target="testRaytracer"/>
+		</Unit>
 		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/camera.h">
 			<Option target="testRaytracer"/>
 		</Unit>

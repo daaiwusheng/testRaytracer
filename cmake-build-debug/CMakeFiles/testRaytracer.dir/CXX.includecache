@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAImage.h
+iostream
+-
+RGBAValue.h
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAValue.h
+
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAValue.h
+iostream
+-
+
 /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/camera.h
 rtweekend.h
 /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/rtweekend.h
@@ -17,6 +27,8 @@ fstream
 -
 iostream
 -
+RGBAValue.h
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAValue.h
 
 /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/hittable.h
 rtweekend.h
@@ -51,6 +63,12 @@ camera.h
 /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/camera.h
 material.h
 /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/material.h
+omp.h
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/omp.h
+map
+-
+RGBAImage.h
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAImage.h
 
 /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/material.h
 rtweekend.h
@@ -84,6 +102,12 @@ vec3.h
 cmath
 -
 iostream
+-
+
+/usr/local/include/omp.h
+stdlib.h
+-
+stdint.h
 -
 
 /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QCoreApplication

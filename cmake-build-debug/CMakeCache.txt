@@ -230,6 +230,9 @@ Qt5Core_DIR:PATH=/usr/local/opt/qt@5/lib/cmake/Qt5Core
 //The directory containing a CMake configuration file for Qt5.
 Qt5_DIR:PATH=/usr/local/opt/qt@5/lib/cmake/Qt5
 
+//Use OpenMP to enamble <omp.h>
+USE_OpenMP:BOOL=ON
+
 //Value Computed by CMake
 testRaytracer_BINARY_DIR:STATIC=/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug
 
@@ -384,6 +387,20 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding OpenMP
+FIND_PACKAGE_MESSAGE_DETAILS_OpenMP:INTERNAL=[TRUE][TRUE][c ][v()]
+//Details about finding OpenMP_C
+FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_C:INTERNAL=[-Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument][libomp;libgomp;libiomp5][libomp;libgomp;libiomp5][libomp;libgomp;libiomp5][v()]
+//Details about finding OpenMP_CXX
+FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_CXX:INTERNAL=[-Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument][libomp;libgomp;libiomp5][libomp;libgomp;libiomp5][libomp;libgomp;libiomp5][v()]
+//CXX compiler's OpenMP specification date
+OpenMP_CXX_SPEC_DATE:INTERNAL=
+//C compiler's OpenMP specification date
+OpenMP_C_SPEC_DATE:INTERNAL=
+//Result of TRY_COMPILE
+OpenMP_SPECTEST_CXX_:INTERNAL=FALSE
+//Result of TRY_COMPILE
+OpenMP_SPECTEST_C_:INTERNAL=FALSE
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
 
