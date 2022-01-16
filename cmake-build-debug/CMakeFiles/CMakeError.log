@@ -118,3 +118,93 @@ make: *** [cmTC_272a8/fast] Error 2
 
 
 
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d88f4/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d88f4.dir/build.make CMakeFiles/cmTC_d88f4.dir/build
+Building C object CMakeFiles/cmTC_d88f4.dir/OpenMPCheckVersion.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_d88f4.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_d88f4.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_d88f4.dir/OpenMPCheckVersion.c.o -c /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d88f4.dir/OpenMPCheckVersion.c.o] Error 1
+make: *** [cmTC_d88f4/fast] Error 2
+
+
+
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_08793/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_08793.dir/build.make CMakeFiles/cmTC_08793.dir/build
+Building CXX object CMakeFiles/cmTC_08793.dir/OpenMPCheckVersion.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_08793.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_08793.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_08793.dir/OpenMPCheckVersion.cpp.o -c /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_08793.dir/OpenMPCheckVersion.cpp.o] Error 1
+make: *** [cmTC_08793/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c8921/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c8921.dir/build.make CMakeFiles/cmTC_c8921.dir/build
+Building C object CMakeFiles/cmTC_c8921.dir/OpenMPCheckVersion.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_c8921.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_c8921.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_c8921.dir/OpenMPCheckVersion.c.o -c /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c8921.dir/OpenMPCheckVersion.c.o] Error 1
+make: *** [cmTC_c8921/fast] Error 2
+
+
+
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_64161/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_64161.dir/build.make CMakeFiles/cmTC_64161.dir/build
+Building CXX object CMakeFiles/cmTC_64161.dir/OpenMPCheckVersion.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_64161.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_64161.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_64161.dir/OpenMPCheckVersion.cpp.o -c /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_64161.dir/OpenMPCheckVersion.cpp.o] Error 1
+make: *** [cmTC_64161/fast] Error 2
+
+
+
+Detecting C OpenMP version failed with the following output:
+Change Dir: /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_38b0b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_38b0b.dir/build.make CMakeFiles/cmTC_38b0b.dir/build
+Building C object CMakeFiles/cmTC_38b0b.dir/OpenMPCheckVersion.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_38b0b.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_38b0b.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_38b0b.dir/OpenMPCheckVersion.c.o -c /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.c:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_38b0b.dir/OpenMPCheckVersion.c.o] Error 1
+make: *** [cmTC_38b0b/fast] Error 2
+
+
+
+Detecting CXX OpenMP version failed with the following output:
+Change Dir: /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3d197/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3d197.dir/build.make CMakeFiles/cmTC_3d197.dir/build
+Building CXX object CMakeFiles/cmTC_3d197.dir/OpenMPCheckVersion.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -MD -MT CMakeFiles/cmTC_3d197.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_3d197.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_3d197.dir/OpenMPCheckVersion.cpp.o -c /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp:3:10: fatal error: 'omp.h' file not found
+#include <omp.h>
+         ^~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3d197.dir/OpenMPCheckVersion.cpp.o] Error 1
+make: *** [cmTC_3d197/fast] Error 2
+
+
+

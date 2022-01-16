@@ -11,6 +11,7 @@ CMakeFiles/testRaytracer.dir/RGBAValue.cpp.o: \
 CMakeFiles/testRaytracer.dir/main.cpp.o: \
  ../RGBAImage.h \
  ../RGBAValue.h \
+ ../aabb.h \
  ../camera.h \
  ../color.h \
  ../hittable.h \
@@ -21,6 +22,7 @@ CMakeFiles/testRaytracer.dir/main.cpp.o: \
  ../ray.h \
  ../rtweekend.h \
  ../sphere.h \
+ ../texture.h \
  ../vec3.h \
  /usr/local/include/omp.h \
  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QCoreApplication \

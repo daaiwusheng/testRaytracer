@@ -112,6 +112,12 @@
 		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAValue.h">
 			<Option target="testRaytracer"/>
 		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/aabb.h">
+			<Option target="testRaytracer"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/bvh.h">
+			<Option target="testRaytracer"/>
+		</Unit>
 		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/camera.h">
 			<Option target="testRaytracer"/>
 		</Unit>
@@ -143,6 +149,9 @@
 			<Option target="testRaytracer"/>
 		</Unit>
 		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/sphere.h">
+			<Option target="testRaytracer"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/texture.h">
 			<Option target="testRaytracer"/>
 		</Unit>
 		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/vec3.h">

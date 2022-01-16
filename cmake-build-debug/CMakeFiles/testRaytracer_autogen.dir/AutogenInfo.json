@@ -73,6 +73,18 @@
 			null
 		],
 		[
+			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/aabb.h",
+			"MU",
+			"EWIEGA46WW/moc_aabb.cpp",
+			null
+		],
+		[
+			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/bvh.h",
+			"MU",
+			"EWIEGA46WW/moc_bvh.cpp",
+			null
+		],
+		[
 			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/camera.h",
 			"MU",
 			"EWIEGA46WW/moc_camera.cpp",
@@ -124,6 +136,12 @@
 			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/sphere.h",
 			"MU",
 			"EWIEGA46WW/moc_sphere.cpp",
+			null
+		],
+		[
+			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/texture.h",
+			"MU",
+			"EWIEGA46WW/moc_texture.cpp",
 			null
 		],
 		[
