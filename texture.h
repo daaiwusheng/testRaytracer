@@ -6,7 +6,7 @@
 #define TESTRAYTRACER_TEXTURE_H
 
 #include "rtweekend.h"
-
+#include "perlin.h"
 class texture {
 public:
     virtual color value(double u, double v, const point3& p) const = 0;
@@ -49,6 +49,20 @@ public:
 public:
     shared_ptr<texture> odd;
     shared_ptr<texture> even;
+};
+
+
+
+class noise_texture : public texture {
+public:
+    noise_texture() {}
+
+    virtual color value(double u, double v, const point3& p) const override {
+        return color(1,1,1) * noise.noise(p);
+    }
+
+public:
+    perlin noise;
 };
 
 #endif //TESTRAYTRACER_TEXTURE_H

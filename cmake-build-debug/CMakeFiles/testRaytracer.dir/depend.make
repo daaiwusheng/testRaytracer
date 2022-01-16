@@ -19,6 +19,7 @@ CMakeFiles/testRaytracer.dir/main.cpp.o: \
  ../main.cpp \
  ../material.h \
  ../moving_sphere.h \
+ ../perlin.h \
  ../ray.h \
  ../rtweekend.h \
  ../sphere.h \

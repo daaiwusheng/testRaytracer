@@ -15,6 +15,15 @@
 #include "RGBAImage.h"
 #include "moving_sphere.h"
 
+hittable_list two_perlin_spheres() {
+    hittable_list objects;
+
+    auto pertext = make_shared<noise_texture>();
+    objects.add(make_shared<sphere>(point3(0,-1000,0), 1000, make_shared<lambertian>(pertext)));
+    objects.add(make_shared<sphere>(point3(0, 2, 0), 2, make_shared<lambertian>(pertext)));
+
+    return objects;
+}
 
 hittable_list two_spheres() {
     hittable_list objects;
@@ -116,7 +125,7 @@ color ray_color(const ray& r, const hittable& world, int depth) {
 int main(int argc, char *argv[]) {
 
     std::ofstream fileTextureMap;
-    fileTextureMap.open("/Users/wangyu/Downloads/Image_3_Checkered_spheres.ppm");
+    fileTextureMap.open("/Users/wangyu/Downloads/Image_7_Hashed_random_texture.ppm");
 
 
 
@@ -145,10 +154,15 @@ int main(int argc, char *argv[]) {
             vfov = 20.0;
             aperture = 0.1;
             break;
-
-        default:
         case 2:
             world = two_spheres();
+            lookfrom = point3(13,2,3);
+            lookat = point3(0,0,0);
+            vfov = 20.0;
+            break;
+        default:
+        case 3:
+            world = two_perlin_spheres();
             lookfrom = point3(13,2,3);
             lookat = point3(0,0,0);
             vfov = 20.0;
