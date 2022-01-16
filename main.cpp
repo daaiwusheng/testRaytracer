@@ -18,7 +18,7 @@
 hittable_list two_perlin_spheres() {
     hittable_list objects;
 
-    auto pertext = make_shared<noise_texture>();
+    auto pertext = make_shared<noise_texture>(4);
     objects.add(make_shared<sphere>(point3(0,-1000,0), 1000, make_shared<lambertian>(pertext)));
     objects.add(make_shared<sphere>(point3(0, 2, 0), 2, make_shared<lambertian>(pertext)));
 
@@ -125,7 +125,7 @@ color ray_color(const ray& r, const hittable& world, int depth) {
 int main(int argc, char *argv[]) {
 
     std::ofstream fileTextureMap;
-    fileTextureMap.open("/Users/wangyu/Downloads/Image 9: Perlin texture, trilinearly interpolated, smoothed.ppm");
+    fileTextureMap.open("/Users/wangyu/Downloads/Image 10: Perlin texture, higher frequency.ppm");
 
 
 
