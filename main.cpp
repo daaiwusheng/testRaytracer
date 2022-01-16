@@ -125,7 +125,7 @@ color ray_color(const ray& r, const hittable& world, int depth) {
 int main(int argc, char *argv[]) {
 
     std::ofstream fileTextureMap;
-    fileTextureMap.open("/Users/wangyu/Downloads/Image 10: Perlin texture, higher frequency.ppm");
+    fileTextureMap.open("/Users/wangyu/Downloads/Image 11: Perlin texture, shifted off integer values.ppm");
 
 
 
