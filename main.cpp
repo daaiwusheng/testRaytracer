@@ -125,7 +125,7 @@ color ray_color(const ray& r, const hittable& world, int depth) {
 int main(int argc, char *argv[]) {
 
     std::ofstream fileTextureMap;
-    fileTextureMap.open("/Users/wangyu/Downloads/Image 8: Perlin texture with trilinear interpolation.ppm");
+    fileTextureMap.open("/Users/wangyu/Downloads/Image 9: Perlin texture, trilinearly interpolated, smoothed.ppm");
 
 
 
