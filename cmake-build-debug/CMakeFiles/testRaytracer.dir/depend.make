@@ -21,10 +21,12 @@ CMakeFiles/testRaytracer.dir/main.cpp.o: \
  ../moving_sphere.h \
  ../perlin.h \
  ../ray.h \
+ ../rtw_stb_image.h \
  ../rtweekend.h \
  ../sphere.h \
  ../texture.h \
  ../vec3.h \
+ /Users/wangyu/myownlibs/stb-master/stb_image.h \
  /usr/local/include/omp.h \
  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QCoreApplication \
  /usr/local/opt/qt@5/lib/QtCore.framework/Headers/QDebug \

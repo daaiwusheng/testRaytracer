@@ -46,6 +46,7 @@
 				<Compiler>
 					<Add option="-DQT_CORE_LIB"/>
 					<Add directory="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/testRaytracer_autogen/include"/>
+					<Add directory="/Users/wangyu/myownlibs/stb-master"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/opt/qt@5/lib/QtCore.framework"/>
 					<Add directory="/usr/local/opt/qt@5/lib/QtCore.framework/Headers"/>
@@ -72,6 +73,7 @@
 				<Compiler>
 					<Add option="-DQT_CORE_LIB"/>
 					<Add directory="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/testRaytracer_autogen/include"/>
+					<Add directory="/Users/wangyu/myownlibs/stb-master"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/opt/qt@5/lib/QtCore.framework"/>
 					<Add directory="/usr/local/opt/qt@5/lib/QtCore.framework/Headers"/>
@@ -146,6 +148,9 @@
 			<Option target="testRaytracer"/>
 		</Unit>
 		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/ray.h">
+			<Option target="testRaytracer"/>
+		</Unit>
+		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/rtw_stb_image.h">
 			<Option target="testRaytracer"/>
 		</Unit>
 		<Unit filename="/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/rtweekend.h">

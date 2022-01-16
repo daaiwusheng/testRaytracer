@@ -10,6 +10,8 @@ set(CMAKE_AUTOUIC ON)
 set(OPENMP_LIBRARIES "/usr/local/lib/") #这里写你的libomp路径, 通过brew安装的默认地址
 set(OPENMP_INCLUDES "/usr/local/include")#这里写你的libomp路径
 
+include_directories("/Users/wangyu/myownlibs/stb-master/") #换成头文件所在目录,引用外部库,不需要编译的一个开源库stb_image
+
 message("here")
 message("${CMAKE_CXX_COMPILER}")
 
@@ -55,7 +57,7 @@ find_package(Qt5 COMPONENTS
 
 add_executable(testRaytracer main.cpp vec3.h color.h ray.h hittable.h sphere.h hittable_list.h rtweekend.h camera.h material.h
               RGBAValue.h RGBAValue.cpp RGBAImage.h RGBAImage.cpp
-        moving_sphere.h aabb.h bvh.h texture.h perlin.h)
+        moving_sphere.h aabb.h bvh.h texture.h perlin.h rtw_stb_image.h)
 target_link_libraries(testRaytracer
         Qt5::Core
         )

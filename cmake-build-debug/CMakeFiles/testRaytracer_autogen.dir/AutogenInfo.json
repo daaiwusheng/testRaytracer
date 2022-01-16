@@ -133,6 +133,12 @@
 			null
 		],
 		[
+			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/rtw_stb_image.h",
+			"MU",
+			"EWIEGA46WW/moc_rtw_stb_image.cpp",
+			null
+		],
+		[
 			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/rtweekend.h",
 			"MU",
 			"EWIEGA46WW/moc_rtweekend.cpp",
@@ -170,6 +176,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/Users/wangyu/myownlibs/stb-master",
 		"/usr/local/include",
 		"/usr/local/opt/qt@5/lib/QtCore.framework",
 		"/usr/local/opt/qt@5/lib/QtCore.framework/Headers",

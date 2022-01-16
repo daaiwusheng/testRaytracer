@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = -DQT_CORE_LIB
 
-CXX_INCLUDES = -I/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/testRaytracer_autogen/include -I/usr/local/include -iframework /usr/local/opt/qt@5/lib -isystem /usr/local/opt/qt@5/lib/QtCore.framework/Headers -isystem /usr/local/opt/qt@5/./mkspecs/macx-clang
+CXX_INCLUDES = -I/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/testRaytracer_autogen/include -I/Users/wangyu/myownlibs/stb-master -I/usr/local/include -iframework /usr/local/opt/qt@5/lib -isystem /usr/local/opt/qt@5/lib/QtCore.framework/Headers -isystem /usr/local/opt/qt@5/./mkspecs/macx-clang
 
 CXX_FLAGS =  -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -fPIC -std=gnu++11
 

@@ -23,6 +23,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "testRaytracer_autogen/include"
+  "/Users/wangyu/myownlibs/stb-master"
   "/usr/local/include"
   "/usr/local/opt/qt@5/lib/QtCore.framework"
   "/usr/local/opt/qt@5/lib/QtCore.framework/Headers"
