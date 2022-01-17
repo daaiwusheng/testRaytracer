@@ -13,6 +13,7 @@ CMakeFiles/testRaytracer.dir/main.cpp.o: \
  ../RGBAValue.h \
  ../aabb.h \
  ../aarect.h \
+ ../box.h \
  ../camera.h \
  ../color.h \
  ../hittable.h \
