@@ -60,6 +60,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/integrate_x_sq_autogen.dir/AutogenInfo.json"
   "CMakeFiles/pi_autogen.dir/AutogenInfo.json"
   "CMakeFiles/testRaytracer_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -67,8 +68,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/integrate_x_sq.dir/DependInfo.cmake"
   "CMakeFiles/pi.dir/DependInfo.cmake"
   "CMakeFiles/testRaytracer.dir/DependInfo.cmake"
+  "CMakeFiles/integrate_x_sq_autogen.dir/DependInfo.cmake"
   "CMakeFiles/pi_autogen.dir/DependInfo.cmake"
   "CMakeFiles/testRaytracer_autogen.dir/DependInfo.cmake"
   )

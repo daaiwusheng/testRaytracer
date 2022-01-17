@@ -1,6 +1,8 @@
 /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/integrate_x_sq.dir
 /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/pi.dir
 /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/testRaytracer.dir
+/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/integrate_x_sq_autogen.dir
 /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/pi_autogen.dir
 /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/testRaytracer_autogen.dir

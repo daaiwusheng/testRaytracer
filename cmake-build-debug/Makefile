@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named integrate_x_sq
+
+# Build rule for target.
+integrate_x_sq: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 integrate_x_sq
+.PHONY : integrate_x_sq
+
+# fast build rule for target.
+integrate_x_sq/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrate_x_sq.dir/build.make CMakeFiles/integrate_x_sq.dir/build
+.PHONY : integrate_x_sq/fast
+
+#=============================================================================
 # Target rules for targets named pi
 
 # Build rule for target.
@@ -141,6 +154,19 @@ testRaytracer: cmake_check_build_system
 testRaytracer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/build
 .PHONY : testRaytracer/fast
+
+#=============================================================================
+# Target rules for targets named integrate_x_sq_autogen
+
+# Build rule for target.
+integrate_x_sq_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 integrate_x_sq_autogen
+.PHONY : integrate_x_sq_autogen
+
+# fast build rule for target.
+integrate_x_sq_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrate_x_sq_autogen.dir/build.make CMakeFiles/integrate_x_sq_autogen.dir/build
+.PHONY : integrate_x_sq_autogen/fast
 
 #=============================================================================
 # Target rules for targets named pi_autogen
@@ -215,6 +241,57 @@ RGBAValue.s: RGBAValue.cpp.s
 RGBAValue.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/RGBAValue.cpp.s
 .PHONY : RGBAValue.cpp.s
+
+integrate_x_sq.o: integrate_x_sq.cpp.o
+.PHONY : integrate_x_sq.o
+
+# target to build an object file
+integrate_x_sq.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrate_x_sq.dir/build.make CMakeFiles/integrate_x_sq.dir/integrate_x_sq.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/integrate_x_sq.cpp.o
+.PHONY : integrate_x_sq.cpp.o
+
+integrate_x_sq.i: integrate_x_sq.cpp.i
+.PHONY : integrate_x_sq.i
+
+# target to preprocess a source file
+integrate_x_sq.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrate_x_sq.dir/build.make CMakeFiles/integrate_x_sq.dir/integrate_x_sq.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/integrate_x_sq.cpp.i
+.PHONY : integrate_x_sq.cpp.i
+
+integrate_x_sq.s: integrate_x_sq.cpp.s
+.PHONY : integrate_x_sq.s
+
+# target to generate assembly for a file
+integrate_x_sq.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrate_x_sq.dir/build.make CMakeFiles/integrate_x_sq.dir/integrate_x_sq.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/integrate_x_sq.cpp.s
+.PHONY : integrate_x_sq.cpp.s
+
+integrate_x_sq_autogen/mocs_compilation.o: integrate_x_sq_autogen/mocs_compilation.cpp.o
+.PHONY : integrate_x_sq_autogen/mocs_compilation.o
+
+# target to build an object file
+integrate_x_sq_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrate_x_sq.dir/build.make CMakeFiles/integrate_x_sq.dir/integrate_x_sq_autogen/mocs_compilation.cpp.o
+.PHONY : integrate_x_sq_autogen/mocs_compilation.cpp.o
+
+integrate_x_sq_autogen/mocs_compilation.i: integrate_x_sq_autogen/mocs_compilation.cpp.i
+.PHONY : integrate_x_sq_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+integrate_x_sq_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrate_x_sq.dir/build.make CMakeFiles/integrate_x_sq.dir/integrate_x_sq_autogen/mocs_compilation.cpp.i
+.PHONY : integrate_x_sq_autogen/mocs_compilation.cpp.i
+
+integrate_x_sq_autogen/mocs_compilation.s: integrate_x_sq_autogen/mocs_compilation.cpp.s
+.PHONY : integrate_x_sq_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+integrate_x_sq_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrate_x_sq.dir/build.make CMakeFiles/integrate_x_sq.dir/integrate_x_sq_autogen/mocs_compilation.cpp.s
+.PHONY : integrate_x_sq_autogen/mocs_compilation.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -323,8 +400,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... integrate_x_sq_autogen"
 	@echo "... pi_autogen"
 	@echo "... testRaytracer_autogen"
+	@echo "... integrate_x_sq"
 	@echo "... pi"
 	@echo "... testRaytracer"
 	@echo "... RGBAImage.o"
@@ -333,6 +412,12 @@ help:
 	@echo "... RGBAValue.o"
 	@echo "... RGBAValue.i"
 	@echo "... RGBAValue.s"
+	@echo "... integrate_x_sq.o"
+	@echo "... integrate_x_sq.i"
+	@echo "... integrate_x_sq.s"
+	@echo "... integrate_x_sq_autogen/mocs_compilation.o"
+	@echo "... integrate_x_sq_autogen/mocs_compilation.i"
+	@echo "... integrate_x_sq_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
