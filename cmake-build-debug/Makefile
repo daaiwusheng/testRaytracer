@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named pi
+
+# Build rule for target.
+pi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pi
+.PHONY : pi
+
+# fast build rule for target.
+pi/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi.dir/build.make CMakeFiles/pi.dir/build
+.PHONY : pi/fast
+
+#=============================================================================
 # Target rules for targets named testRaytracer
 
 # Build rule for target.
@@ -128,6 +141,19 @@ testRaytracer: cmake_check_build_system
 testRaytracer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/build
 .PHONY : testRaytracer/fast
+
+#=============================================================================
+# Target rules for targets named pi_autogen
+
+# Build rule for target.
+pi_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pi_autogen
+.PHONY : pi_autogen
+
+# fast build rule for target.
+pi_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi_autogen.dir/build.make CMakeFiles/pi_autogen.dir/build
+.PHONY : pi_autogen/fast
 
 #=============================================================================
 # Target rules for targets named testRaytracer_autogen
@@ -214,6 +240,57 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pi.o: pi.cpp.o
+.PHONY : pi.o
+
+# target to build an object file
+pi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi.dir/build.make CMakeFiles/pi.dir/pi.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/pi.cpp.o
+.PHONY : pi.cpp.o
+
+pi.i: pi.cpp.i
+.PHONY : pi.i
+
+# target to preprocess a source file
+pi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi.dir/build.make CMakeFiles/pi.dir/pi.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/pi.cpp.i
+.PHONY : pi.cpp.i
+
+pi.s: pi.cpp.s
+.PHONY : pi.s
+
+# target to generate assembly for a file
+pi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi.dir/build.make CMakeFiles/pi.dir/pi.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/pi.cpp.s
+.PHONY : pi.cpp.s
+
+pi_autogen/mocs_compilation.o: pi_autogen/mocs_compilation.cpp.o
+.PHONY : pi_autogen/mocs_compilation.o
+
+# target to build an object file
+pi_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi.dir/build.make CMakeFiles/pi.dir/pi_autogen/mocs_compilation.cpp.o
+.PHONY : pi_autogen/mocs_compilation.cpp.o
+
+pi_autogen/mocs_compilation.i: pi_autogen/mocs_compilation.cpp.i
+.PHONY : pi_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+pi_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi.dir/build.make CMakeFiles/pi.dir/pi_autogen/mocs_compilation.cpp.i
+.PHONY : pi_autogen/mocs_compilation.cpp.i
+
+pi_autogen/mocs_compilation.s: pi_autogen/mocs_compilation.cpp.s
+.PHONY : pi_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+pi_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi.dir/build.make CMakeFiles/pi.dir/pi_autogen/mocs_compilation.cpp.s
+.PHONY : pi_autogen/mocs_compilation.cpp.s
+
 testRaytracer_autogen/mocs_compilation.o: testRaytracer_autogen/mocs_compilation.cpp.o
 .PHONY : testRaytracer_autogen/mocs_compilation.o
 
@@ -246,7 +323,9 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... pi_autogen"
 	@echo "... testRaytracer_autogen"
+	@echo "... pi"
 	@echo "... testRaytracer"
 	@echo "... RGBAImage.o"
 	@echo "... RGBAImage.i"
@@ -257,6 +336,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pi.o"
+	@echo "... pi.i"
+	@echo "... pi.s"
+	@echo "... pi_autogen/mocs_compilation.o"
+	@echo "... pi_autogen/mocs_compilation.i"
+	@echo "... pi_autogen/mocs_compilation.s"
 	@echo "... testRaytracer_autogen/mocs_compilation.o"
 	@echo "... testRaytracer_autogen/mocs_compilation.i"
 	@echo "... testRaytracer_autogen/mocs_compilation.s"

@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/testRaytracer.dir/RGBAImage.cpp.o"
   "CMakeFiles/testRaytracer.dir/RGBAValue.cpp.o"
   "CMakeFiles/testRaytracer.dir/main.cpp.o"
+  "CMakeFiles/testRaytracer.dir/pi.cpp.o"
   "CMakeFiles/testRaytracer.dir/testRaytracer_autogen/mocs_compilation.cpp.o"
   "testRaytracer"
   "testRaytracer.pdb"

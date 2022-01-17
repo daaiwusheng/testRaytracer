@@ -57,8 +57,10 @@ find_package(Qt5 COMPONENTS
 
 add_executable(testRaytracer main.cpp vec3.h color.h ray.h hittable.h sphere.h hittable_list.h rtweekend.h camera.h material.h
               RGBAValue.h RGBAValue.cpp RGBAImage.h RGBAImage.cpp
-        moving_sphere.h aabb.h bvh.h texture.h perlin.h rtw_stb_image.h aarect.h box.h)
+        moving_sphere.h aabb.h bvh.h texture.h perlin.h rtw_stb_image.h aarect.h box.h pi.cpp)
 target_link_libraries(testRaytracer
         Qt5::Core
         )
 
+
+add_executable(pi pi.cpp)
