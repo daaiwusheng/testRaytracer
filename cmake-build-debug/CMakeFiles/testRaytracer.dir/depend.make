@@ -21,6 +21,7 @@ CMakeFiles/testRaytracer.dir/main.cpp.o: \
  ../main.cpp \
  ../material.h \
  ../moving_sphere.h \
+ ../onb.h \
  ../perlin.h \
  ../ray.h \
  ../rtw_stb_image.h \

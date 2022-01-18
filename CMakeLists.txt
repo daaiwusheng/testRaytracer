@@ -62,7 +62,7 @@ add_executable(testRaytracer main.cpp vec3.h color.h ray.h hittable.h sphere.h h
 #        integrate_x_sq.cpp
 #        sphere_importance.cpp
 
-        )
+        onb.h)
 target_link_libraries(testRaytracer
         Qt5::Core
         )
