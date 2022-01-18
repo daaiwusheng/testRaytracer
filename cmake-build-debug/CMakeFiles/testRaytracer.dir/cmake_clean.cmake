@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/testRaytracer.dir/integrate_x_sq.cpp.o"
   "CMakeFiles/testRaytracer.dir/main.cpp.o"
   "CMakeFiles/testRaytracer.dir/pi.cpp.o"
+  "CMakeFiles/testRaytracer.dir/sphere_importance.cpp.o"
   "CMakeFiles/testRaytracer.dir/testRaytracer_autogen/mocs_compilation.cpp.o"
   "testRaytracer"
   "testRaytracer.pdb"

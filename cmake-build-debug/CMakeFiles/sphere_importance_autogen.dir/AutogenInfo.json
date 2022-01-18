@@ -1,5 +1,5 @@
 {
-	"BUILD_DIR" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/testRaytracer_autogen",
+	"BUILD_DIR" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/sphere_importance_autogen",
 	"CMAKE_BINARY_DIR" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug",
 	"CMAKE_CURRENT_BINARY_DIR" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer",
@@ -58,127 +58,11 @@
 	"CMAKE_SOURCE_DIR" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
-	"HEADERS" : 
-	[
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAImage.h",
-			"MU",
-			"EWIEGA46WW/moc_RGBAImage.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAValue.h",
-			"MU",
-			"EWIEGA46WW/moc_RGBAValue.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/aabb.h",
-			"MU",
-			"EWIEGA46WW/moc_aabb.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/aarect.h",
-			"MU",
-			"EWIEGA46WW/moc_aarect.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/box.h",
-			"MU",
-			"EWIEGA46WW/moc_box.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/bvh.h",
-			"MU",
-			"EWIEGA46WW/moc_bvh.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/camera.h",
-			"MU",
-			"EWIEGA46WW/moc_camera.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/color.h",
-			"MU",
-			"EWIEGA46WW/moc_color.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/hittable.h",
-			"MU",
-			"EWIEGA46WW/moc_hittable.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/hittable_list.h",
-			"MU",
-			"EWIEGA46WW/moc_hittable_list.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/material.h",
-			"MU",
-			"EWIEGA46WW/moc_material.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/moving_sphere.h",
-			"MU",
-			"EWIEGA46WW/moc_moving_sphere.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/perlin.h",
-			"MU",
-			"EWIEGA46WW/moc_perlin.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/ray.h",
-			"MU",
-			"EWIEGA46WW/moc_ray.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/rtw_stb_image.h",
-			"MU",
-			"EWIEGA46WW/moc_rtw_stb_image.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/rtweekend.h",
-			"MU",
-			"EWIEGA46WW/moc_rtweekend.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/sphere.h",
-			"MU",
-			"EWIEGA46WW/moc_sphere.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/texture.h",
-			"MU",
-			"EWIEGA46WW/moc_texture.cpp",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/vec3.h",
-			"MU",
-			"EWIEGA46WW/moc_vec3.cpp",
-			null
-		]
-	],
+	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/testRaytracer_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/testRaytracer_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB" ],
+	"INCLUDE_DIR" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/sphere_importance_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/sphere_importance_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -190,9 +74,6 @@
 	[
 		"/Users/wangyu/myownlibs/stb-master",
 		"/usr/local/include",
-		"/usr/local/opt/qt@5/lib/QtCore.framework",
-		"/usr/local/opt/qt@5/lib/QtCore.framework/Headers",
-		"/usr/local/opt/qt@5/mkspecs/macx-clang",
 		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1",
 		"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include",
 		"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include",
@@ -209,44 +90,19 @@
 		"-c",
 		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/testRaytracer_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/sphere_importance_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/testRaytracer_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/sphere_importance_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/local/opt/qt@5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/testRaytracer_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles/sphere_importance_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAImage.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/RGBAValue.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/integrate_x_sq.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/main.cpp",
-			"MU",
-			null
-		],
-		[
-			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/pi.cpp",
-			"MU",
-			null
-		],
 		[
 			"/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/sphere_importance.cpp",
 			"MU",

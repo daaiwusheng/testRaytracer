@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形
 # The main recursive "all" target.
 all: CMakeFiles/integrate_x_sq.dir/all
 all: CMakeFiles/pi.dir/all
+all: CMakeFiles/sphere_importance.dir/all
 all: CMakeFiles/testRaytracer.dir/all
 .PHONY : all
 
@@ -75,9 +76,11 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/integrate_x_sq.dir/clean
 clean: CMakeFiles/pi.dir/clean
+clean: CMakeFiles/sphere_importance.dir/clean
 clean: CMakeFiles/testRaytracer.dir/clean
 clean: CMakeFiles/integrate_x_sq_autogen.dir/clean
 clean: CMakeFiles/pi_autogen.dir/clean
+clean: CMakeFiles/sphere_importance_autogen.dir/clean
 clean: CMakeFiles/testRaytracer_autogen.dir/clean
 .PHONY : clean
 
@@ -134,18 +137,44 @@ CMakeFiles/pi.dir/clean:
 .PHONY : CMakeFiles/pi.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/sphere_importance.dir
+
+# All Build rule for target.
+CMakeFiles/sphere_importance.dir/all: CMakeFiles/sphere_importance_autogen.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles --progress-num=9,10,11 "Built target sphere_importance"
+.PHONY : CMakeFiles/sphere_importance.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sphere_importance.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sphere_importance.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sphere_importance.dir/rule
+
+# Convenience name for target.
+sphere_importance: CMakeFiles/sphere_importance.dir/rule
+.PHONY : sphere_importance
+
+# clean rule for target.
+CMakeFiles/sphere_importance.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/clean
+.PHONY : CMakeFiles/sphere_importance.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/testRaytracer.dir
 
 # All Build rule for target.
 CMakeFiles/testRaytracer.dir/all: CMakeFiles/testRaytracer_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles --progress-num=9,10,11,12,13,14,15 "Built target testRaytracer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles --progress-num=13,14,15,16,17,18,19,20 "Built target testRaytracer"
 .PHONY : CMakeFiles/testRaytracer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testRaytracer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/testRaytracer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/testRaytracer.dir/rule
@@ -212,13 +241,39 @@ CMakeFiles/pi_autogen.dir/clean:
 .PHONY : CMakeFiles/pi_autogen.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/sphere_importance_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/sphere_importance_autogen.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance_autogen.dir/build.make CMakeFiles/sphere_importance_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance_autogen.dir/build.make CMakeFiles/sphere_importance_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles --progress-num=12 "Built target sphere_importance_autogen"
+.PHONY : CMakeFiles/sphere_importance_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/sphere_importance_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sphere_importance_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/sphere_importance_autogen.dir/rule
+
+# Convenience name for target.
+sphere_importance_autogen: CMakeFiles/sphere_importance_autogen.dir/rule
+.PHONY : sphere_importance_autogen
+
+# clean rule for target.
+CMakeFiles/sphere_importance_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance_autogen.dir/build.make CMakeFiles/sphere_importance_autogen.dir/clean
+.PHONY : CMakeFiles/sphere_importance_autogen.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/testRaytracer_autogen.dir
 
 # All Build rule for target.
 CMakeFiles/testRaytracer_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer_autogen.dir/build.make CMakeFiles/testRaytracer_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer_autogen.dir/build.make CMakeFiles/testRaytracer_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles --progress-num=16 "Built target testRaytracer_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/wangyu/Desktop/利兹上课资料/9月份学期/图形学两门课/5812/作业2/研究/testRaytracer/cmake-build-debug/CMakeFiles --progress-num=21 "Built target testRaytracer_autogen"
 .PHONY : CMakeFiles/testRaytracer_autogen.dir/all
 
 # Build rule for subdir invocation for target.

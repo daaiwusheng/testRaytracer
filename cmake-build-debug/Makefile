@@ -143,6 +143,19 @@ pi/fast:
 .PHONY : pi/fast
 
 #=============================================================================
+# Target rules for targets named sphere_importance
+
+# Build rule for target.
+sphere_importance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sphere_importance
+.PHONY : sphere_importance
+
+# fast build rule for target.
+sphere_importance/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/build
+.PHONY : sphere_importance/fast
+
+#=============================================================================
 # Target rules for targets named testRaytracer
 
 # Build rule for target.
@@ -180,6 +193,19 @@ pi_autogen: cmake_check_build_system
 pi_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi_autogen.dir/build.make CMakeFiles/pi_autogen.dir/build
 .PHONY : pi_autogen/fast
+
+#=============================================================================
+# Target rules for targets named sphere_importance_autogen
+
+# Build rule for target.
+sphere_importance_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sphere_importance_autogen
+.PHONY : sphere_importance_autogen
+
+# fast build rule for target.
+sphere_importance_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance_autogen.dir/build.make CMakeFiles/sphere_importance_autogen.dir/build
+.PHONY : sphere_importance_autogen/fast
 
 #=============================================================================
 # Target rules for targets named testRaytracer_autogen
@@ -368,6 +394,57 @@ pi_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi.dir/build.make CMakeFiles/pi.dir/pi_autogen/mocs_compilation.cpp.s
 .PHONY : pi_autogen/mocs_compilation.cpp.s
 
+sphere_importance.o: sphere_importance.cpp.o
+.PHONY : sphere_importance.o
+
+# target to build an object file
+sphere_importance.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/sphere_importance.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/sphere_importance.cpp.o
+.PHONY : sphere_importance.cpp.o
+
+sphere_importance.i: sphere_importance.cpp.i
+.PHONY : sphere_importance.i
+
+# target to preprocess a source file
+sphere_importance.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/sphere_importance.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/sphere_importance.cpp.i
+.PHONY : sphere_importance.cpp.i
+
+sphere_importance.s: sphere_importance.cpp.s
+.PHONY : sphere_importance.s
+
+# target to generate assembly for a file
+sphere_importance.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/sphere_importance.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/sphere_importance.cpp.s
+.PHONY : sphere_importance.cpp.s
+
+sphere_importance_autogen/mocs_compilation.o: sphere_importance_autogen/mocs_compilation.cpp.o
+.PHONY : sphere_importance_autogen/mocs_compilation.o
+
+# target to build an object file
+sphere_importance_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/sphere_importance_autogen/mocs_compilation.cpp.o
+.PHONY : sphere_importance_autogen/mocs_compilation.cpp.o
+
+sphere_importance_autogen/mocs_compilation.i: sphere_importance_autogen/mocs_compilation.cpp.i
+.PHONY : sphere_importance_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+sphere_importance_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/sphere_importance_autogen/mocs_compilation.cpp.i
+.PHONY : sphere_importance_autogen/mocs_compilation.cpp.i
+
+sphere_importance_autogen/mocs_compilation.s: sphere_importance_autogen/mocs_compilation.cpp.s
+.PHONY : sphere_importance_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+sphere_importance_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/sphere_importance_autogen/mocs_compilation.cpp.s
+.PHONY : sphere_importance_autogen/mocs_compilation.cpp.s
+
 testRaytracer_autogen/mocs_compilation.o: testRaytracer_autogen/mocs_compilation.cpp.o
 .PHONY : testRaytracer_autogen/mocs_compilation.o
 
@@ -402,9 +479,11 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... integrate_x_sq_autogen"
 	@echo "... pi_autogen"
+	@echo "... sphere_importance_autogen"
 	@echo "... testRaytracer_autogen"
 	@echo "... integrate_x_sq"
 	@echo "... pi"
+	@echo "... sphere_importance"
 	@echo "... testRaytracer"
 	@echo "... RGBAImage.o"
 	@echo "... RGBAImage.i"
@@ -427,6 +506,12 @@ help:
 	@echo "... pi_autogen/mocs_compilation.o"
 	@echo "... pi_autogen/mocs_compilation.i"
 	@echo "... pi_autogen/mocs_compilation.s"
+	@echo "... sphere_importance.o"
+	@echo "... sphere_importance.i"
+	@echo "... sphere_importance.s"
+	@echo "... sphere_importance_autogen/mocs_compilation.o"
+	@echo "... sphere_importance_autogen/mocs_compilation.i"
+	@echo "... sphere_importance_autogen/mocs_compilation.s"
 	@echo "... testRaytracer_autogen/mocs_compilation.o"
 	@echo "... testRaytracer_autogen/mocs_compilation.i"
 	@echo "... testRaytracer_autogen/mocs_compilation.s"
