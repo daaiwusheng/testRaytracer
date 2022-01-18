@@ -167,10 +167,16 @@ color ray_color(const ray& r, const color& background, const hittable& world, in
     color attenuation;
     color emitted = rec.mat_ptr->emitted(rec.u, rec.v, rec.p);
 
-    if (!rec.mat_ptr->scatter(r, rec, attenuation, scattered))
+    double pdf;
+    color albedo;
+
+    if (!rec.mat_ptr->scatter(r, rec, albedo, scattered, pdf))
         return emitted;
 
-    return emitted + attenuation * ray_color(scattered, background, world, depth-1);
+    return emitted
+           + albedo * rec.mat_ptr->scattering_pdf(r, rec, scattered)
+             * ray_color(scattered, background, world, depth-1) / pdf;
+
 }
 
 int main(int argc, char *argv[]) {
