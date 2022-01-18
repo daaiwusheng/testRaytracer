@@ -274,7 +274,6 @@ integrate_x_sq.o: integrate_x_sq.cpp.o
 # target to build an object file
 integrate_x_sq.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrate_x_sq.dir/build.make CMakeFiles/integrate_x_sq.dir/integrate_x_sq.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/integrate_x_sq.cpp.o
 .PHONY : integrate_x_sq.cpp.o
 
 integrate_x_sq.i: integrate_x_sq.cpp.i
@@ -283,7 +282,6 @@ integrate_x_sq.i: integrate_x_sq.cpp.i
 # target to preprocess a source file
 integrate_x_sq.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrate_x_sq.dir/build.make CMakeFiles/integrate_x_sq.dir/integrate_x_sq.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/integrate_x_sq.cpp.i
 .PHONY : integrate_x_sq.cpp.i
 
 integrate_x_sq.s: integrate_x_sq.cpp.s
@@ -292,7 +290,6 @@ integrate_x_sq.s: integrate_x_sq.cpp.s
 # target to generate assembly for a file
 integrate_x_sq.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/integrate_x_sq.dir/build.make CMakeFiles/integrate_x_sq.dir/integrate_x_sq.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/integrate_x_sq.cpp.s
 .PHONY : integrate_x_sq.cpp.s
 
 integrate_x_sq_autogen/mocs_compilation.o: integrate_x_sq_autogen/mocs_compilation.cpp.o
@@ -349,7 +346,6 @@ pi.o: pi.cpp.o
 # target to build an object file
 pi.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi.dir/build.make CMakeFiles/pi.dir/pi.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/pi.cpp.o
 .PHONY : pi.cpp.o
 
 pi.i: pi.cpp.i
@@ -358,7 +354,6 @@ pi.i: pi.cpp.i
 # target to preprocess a source file
 pi.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi.dir/build.make CMakeFiles/pi.dir/pi.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/pi.cpp.i
 .PHONY : pi.cpp.i
 
 pi.s: pi.cpp.s
@@ -367,7 +362,6 @@ pi.s: pi.cpp.s
 # target to generate assembly for a file
 pi.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pi.dir/build.make CMakeFiles/pi.dir/pi.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/pi.cpp.s
 .PHONY : pi.cpp.s
 
 pi_autogen/mocs_compilation.o: pi_autogen/mocs_compilation.cpp.o
@@ -400,7 +394,6 @@ sphere_importance.o: sphere_importance.cpp.o
 # target to build an object file
 sphere_importance.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/sphere_importance.cpp.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/sphere_importance.cpp.o
 .PHONY : sphere_importance.cpp.o
 
 sphere_importance.i: sphere_importance.cpp.i
@@ -409,7 +402,6 @@ sphere_importance.i: sphere_importance.cpp.i
 # target to preprocess a source file
 sphere_importance.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/sphere_importance.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/sphere_importance.cpp.i
 .PHONY : sphere_importance.cpp.i
 
 sphere_importance.s: sphere_importance.cpp.s
@@ -418,7 +410,6 @@ sphere_importance.s: sphere_importance.cpp.s
 # target to generate assembly for a file
 sphere_importance.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sphere_importance.dir/build.make CMakeFiles/sphere_importance.dir/sphere_importance.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testRaytracer.dir/build.make CMakeFiles/testRaytracer.dir/sphere_importance.cpp.s
 .PHONY : sphere_importance.cpp.s
 
 sphere_importance_autogen/mocs_compilation.o: sphere_importance_autogen/mocs_compilation.cpp.o
