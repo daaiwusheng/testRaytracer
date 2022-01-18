@@ -182,7 +182,7 @@ color ray_color(const ray& r, const color& background, const hittable& world, in
 int main(int argc, char *argv[]) {
 
     std::ofstream fileTextureMap;
-    fileTextureMap.open("/Users/wangyu/Downloads/Image 1: Cornell box, refactored.ppm");
+    fileTextureMap.open("/Users/wangyu/Downloads/Image 2: Cornell box, with different sampling strategy.ppm");
 
 
 
