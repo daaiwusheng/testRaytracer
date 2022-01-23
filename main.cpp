@@ -210,7 +210,7 @@ int main(int argc, char *argv[]) {
     const int samples_per_pixel = 100;
     const int max_depth = 50;
 
-
+    auto test = random_scene();
 
     // World
     auto world = cornell_box();
